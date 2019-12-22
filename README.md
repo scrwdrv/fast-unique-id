@@ -2,15 +2,12 @@
 
 fast-unique-id is a super lightweight package written in typescript that allows you generate universal unique identifier (non-standard) in 18 characters.
 
----
 
 ## Installation
 
 ```sh
 npm i fast-unique-id
 ```
-
----
 
 ## Usage
 
@@ -23,7 +20,6 @@ console.log(uniqueID.fast());
 console.log(uniqueID.timestamp());
 //68kUVYk4gw9lp3ENRP
 ```
----
 
 ## Format & Performance
 
@@ -32,7 +28,6 @@ console.log(uniqueID.timestamp());
 |`uniqueID.fast()`|18| `pid + prefix + timestamp + random suffix`|1919 ops/sec|
 |`uniqueID.timestamp()`|18|`pid + prefix + init timestamp + offset + random suffix`|1725 ops/sec|
 
----
 
 ## Collision
 - multi thread safe
