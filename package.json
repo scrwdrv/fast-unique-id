@@ -1,0 +1,33 @@
+{
+  "name": "fast-unique-id",
+  "version": "1.0.0",
+  "description": "non-standard universal unique id generation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrwdrv/fast-unique-id.git"
+  },
+  "keywords": [
+    "uuid",
+    "id",
+    "timestamp",
+    "fast",
+    "guid",
+    "unique",
+    "collision",
+    "typescript"
+  ],
+  "author": "scrwdrv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scrwdrv/fast-unique-id/issues"
+  },
+  "homepage": "https://github.com/scrwdrv/fast-unique-id#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.12.21"
+  }
+}
