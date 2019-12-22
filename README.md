@@ -11,5 +11,8 @@ npm i fast-unique-id
 ## Usage
 
 ```js
+import * as uuid from 'fast-unique-id';
 
+console.log(uuid.fast());
+console.log(uuid.timestamp());
 ```

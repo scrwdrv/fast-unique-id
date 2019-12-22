@@ -4,7 +4,7 @@ let t = Date.now() * 1e3,
     k = g(4);
 s = s + g(6 - s.length);
 
-export default function id() {
+export function fast() {
     const n = (t++).toString(36);
     return s + n + e.substr(0, 12 - n.length);
 }

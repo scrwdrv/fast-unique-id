@@ -1,2 +1,2 @@
-export default function id(): string;
+export declare function fast(): string;
 export declare function timestamp(): string;
