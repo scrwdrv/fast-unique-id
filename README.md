@@ -32,4 +32,4 @@ console.log(uniqueID.timestamp());
 ## Collision
 - multi thread safe
 - no collision risk under **1000 ids/sec** on average
-- any time related function will be working fine before human extinction
+- any time related functions will be working fine before human extinction

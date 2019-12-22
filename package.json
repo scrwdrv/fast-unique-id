@@ -1,6 +1,6 @@
 {
   "name": "fast-unique-id",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "non-standard universal unique id generation",
   "main": "index.js",
   "scripts": {
