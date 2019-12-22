@@ -25,8 +25,8 @@ console.log(uniqueID.timestamp());
 
 |Method|Length|Format|Performance (Ryzen 5 1600)
 |-|:-:|:-:|-:|
-|`uniqueID.fast()`|18| `pid + prefix + timestamp + random suffix`|1919 ops/sec|
-|`uniqueID.timestamp()`|18|`pid + prefix + init timestamp + offset + random suffix`|1725 ops/sec|
+|`uniqueID.fast()`|18| `pid + prefix + timestamp + random suffix`|1904761 ops/sec|
+|`uniqueID.timestamp()`|18|`pid + prefix + init timestamp + offset + random suffix`|916590 ops/sec|
 
 
 ## Collision

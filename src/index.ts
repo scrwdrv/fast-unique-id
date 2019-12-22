@@ -1,7 +1,8 @@
 let t = Date.now() * 1e3,
     s = process.pid.toString(36),
     e = g(2),
-    k = g(4);
+    k = g(4),
+    l = 0;
 s = s + g(6 - s.length);
 
 export function fast() {
@@ -10,7 +11,10 @@ export function fast() {
 }
 
 export function timestamp() {
-    const n = Date.now().toString(36);
+    let p = (Date.now() * 1e3);
+    while (p <= l) p++;
+    l = p;
+    const n = p.toString(36);
     return s + n + k.substr(0, 12 - n.length);
 }
 
