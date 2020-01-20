@@ -16,8 +16,17 @@ function timestamp() {
     return s + n + k.substr(0, 12 - n.length);
 }
 exports.timestamp = timestamp;
+function random() {
+    return r(18);
+}
+exports.random = random;
 function g(n, r = '') {
     for (let i = n; i--;)
         r += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'[Math.floor(Math.random() * 26)];
+    return r;
+}
+function r(n, r = '') {
+    for (let i = n; i--;)
+        r += 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwuxyz1234567890'[Math.floor(Math.random() * 63)];
     return r;
 }
